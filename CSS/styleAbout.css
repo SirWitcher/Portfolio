@@ -1,0 +1,54 @@
+body {
+    background-color: #000;
+    margin-top: 0;
+}
+
+.circule-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 45%;
+    margin-top: 60px;
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.5)
+}
+
+.circule-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@font-face {
+    font-family:'Heavitas' ;
+    src: url('Heavitas.ttf') format('truetype');
+  }
+  .container {
+      color: white;
+      font-family: 'Heavitas';
+      text-align: center;
+      padding-top: 40px;
+      font-size:  25px;
+  }
+
+  .line {
+    border-top: 1px solid white;
+    margin: 80px 0;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 18px;
+    background: none;
+    transition: box-shadow 0.1s;
+    color: white;
+    border: 4px solid #202124;
+    margin-left: 30px;
+}
+
+button:hover {
+    border: 4px solid #00d9fc;
+    color: #00d9fc;
+    box-shadow: 0px 0px 35px #00d9fc, 0px 0px 15px #00d9fc inset;
+    text-shadow: 0px 0px 10px #00d9fc 0px 0px 3px #00d9fc;
+}

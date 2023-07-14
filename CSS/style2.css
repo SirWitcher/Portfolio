@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+  }
+  
+  .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10%;
+      transform: scale(1.0);
+  }
+  
+  .container2 {
+      margin-top: 55px;
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 50px;
+      color: white;
+  }
